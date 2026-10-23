@@ -1,3 +1,4 @@
 file,source_url,downloaded_on,bytes,sha256
 data/raw\Form_6_English.pdf,https://voters.eci.gov.in/formspdf/Form_6_English.pdf,2026-10-23,102693,2d89e57e2e530989e628872a19c1334a0d968e081ffb542c55e9336ca714a179
 data/raw\Form_8_English.pdf,https://voters.eci.gov.in/formspdf/Form_8_English.pdf,2026-10-23,87686,41d815f8462f48e130f001882b5a0c26e32540e8b2f6b7e589edd03c92c75c90
+data/raw\Form-6_en.pdf,https://voters.eci.gov.in/guidelines/Form-6_en.pdf,2026-10-23,544037,1cd0a6fde1d8d3ec88da9b17e6e66904e39b9558e58d4d2c8058d5afaa94b4dc
