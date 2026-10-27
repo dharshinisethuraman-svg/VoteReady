@@ -1,8 +1,8 @@
 
 import csv
 import hashlib
-from pathlib import Path
 from datetime import date
+from pathlib import Path
 
 pdf_path = Path("data/raw/Handbook_for_Presiding_Officer_2023.pdf")
 manifest = Path("data/manifest.csv")

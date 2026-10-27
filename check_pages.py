@@ -2,6 +2,7 @@
 import csv
 import hashlib
 from pathlib import Path
+
 from pypdf import PdfReader
 
 manifest = Path("data/manifest.csv")
