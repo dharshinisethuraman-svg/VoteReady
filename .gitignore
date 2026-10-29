@@ -34,3 +34,6 @@ Thumbs.db
 !data/manifest.csv
 !data/sample/
 !data/sample/*.pdf
+
+# Generated extracted text files
+data/processed/
