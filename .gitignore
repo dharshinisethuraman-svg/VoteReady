@@ -1,39 +1,11 @@
-
-# Python virtual environments
-venv/
-.venv/
-
-# Environment variables and secrets
 .env
-.env.*
-
-# Python cache and test files
+.venv/
 __pycache__/
-*.py[cod]
+*.pyc
 .pytest_cache/
 .ruff_cache/
-.coverage
-
-# Logs
 logs/
-
-# Raw downloaded dataset (do not commit original PDFs)
 data/raw/
-
-# Local databases
 *.sqlite
-*.sqlite3
-*.db
-
-# OS and editor files
 .DS_Store
-Thumbs.db
-.vscode/
-
-# Keep dataset documentation, manifest, and sample PDFs tracked
-!data/manifest.csv
-!data/sample/
-!data/sample/*.pdf
-
-# Generated extracted text files
-data/processed/
+venv
