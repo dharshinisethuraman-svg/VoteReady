@@ -1,3 +1,7 @@
+[![CI](https://github.com/dharshinisethuraman-svg/VoteReady/actions/workflows/ci.yml/badge.svg)](https://github.com/dharshinisethuraman-svg/VoteReady/actions/workflows/ci.yml)
+
+**Live:** https://voteready-0eoz.onrender.com/health· first request after 15 idle minutes takes about a minute (free tier)
+
 # # Voter Assistance Chatbot
 
 ## 📌 Overview
@@ -127,7 +131,7 @@ curl localhost:8000/health
 ```
 
 ## Live link
-<Added in Week 2>
+(https://voteready-0eoz.onrender.com/)
 
 ## Run with Docker
 ```bash

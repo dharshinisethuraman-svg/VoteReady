@@ -13,9 +13,9 @@ Commit after every class. Tag every Friday: `git tag week-N && git push origin w
 ## Week 2 (tag week-2 by Fri 30 Oct)
 - [x] POST /chat calls an LLM and returns structured JSON
 - [x] Streaming, timeouts, retry and a fallback model
-- [ ] Cost log + GET /usage
-- [ ] Docker Compose (API + Postgres/pgvector) runs
-- [ ] CI green, live link in README
+- [x] Cost log + GET /usage
+- [x] Docker Compose (API + Postgres/pgvector) runs
+- [x] CI green, live link in README
 - [ ] Tag week-2 pushed
 
 ## Week 3 (tag week-3 by Fri 6 Nov)
@@ -31,3 +31,4 @@ Commit after every class. Tag every Friday: `git tag week-N && git push origin w
 | | | |
 | 03 Nov 2026 | Streaming /chat, safe retries, fallback model, cost log, GET /usage | 5564ace |
 | 03 Nov 2026 | Docker Compose (API + pgvector), /ready route, .dockerignore | pending |
+| 04 Nov 2026 | CI workflow (test + docker-smoke), pre-commit hooks, deployed to Render, live link in README | pending |
