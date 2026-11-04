@@ -1,17 +1,12 @@
-
 from pathlib import Path
 
 from pypdf import PdfReader
 
 # Input PDF
-pdf_path = Path(
-    "data/raw/Handbook_for_Presiding_Officer_2023.pdf"
-)
+pdf_path = Path("data/raw/Handbook_for_Presiding_Officer_2023.pdf")
 
 # Output text file
-output_path = Path(
-    "data/processed/handbook_presiding_officer.txt"
-)
+output_path = Path("data/processed/handbook_presiding_officer.txt")
 
 if not pdf_path.exists():
     raise FileNotFoundError(f"PDF not found: {pdf_path}")
@@ -29,9 +24,7 @@ for page_number, page in enumerate(reader.pages, start=1):
     if not text.strip():
         empty_pages += 1
 
-    extracted_pages.append(
-        f"\n--- Page {page_number} ---\n{text}"
-    )
+    extracted_pages.append(f"\n--- Page {page_number} ---\n{text}")
 
 full_text = "\n".join(extracted_pages)
 
